@@ -1,2 +1,2 @@
 # practice
-This is a repository of studying
+This is a repository of studying algorithm
