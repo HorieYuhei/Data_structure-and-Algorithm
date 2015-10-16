@@ -10,10 +10,10 @@
 	1.キー値が見つかり探索終了（番兵か否か）
 */
 
-import java.util.Scanner;
+import java.util.Scanner; //Scannerクラスのインポート宣言
 
-public class Banhei {
-	static int seqSearchSen(int[] a, int n, int key) {
+public class Banhei { //Banheiクラス
+	static int seqSearchSen(int[] a, int n, int key) { //seqSearchSenメソッド
 		int i = 0;
 		a[n] = key;
 
@@ -25,7 +25,7 @@ public class Banhei {
 		return i == n ? -1 : i;
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {	//mainメソッド
 		Scanner stdIn = new Scanner(System.in);
 
 		System.out.print("要素数:");
